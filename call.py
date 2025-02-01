@@ -49,8 +49,8 @@ to_number = st.text_input("Enter recipient's phone number:")
 audio_url = "https://flavescent-serval-2251.twil.io/assets/sevak_audio%20(online-audio-converter.com).mp3"
 
 # Replace with your actual Account SID and Auth Token
-account_sid = 'AC4a7e9c906945c25f4f4965ea814849ec'  # Replace with your actual Account SID
-auth_token = '45fb02a7d00381077d9676bb0abde6db'  # Replace with your actual Auth Token
+account_sid = AC4a7e9c906945c25f4f4965ea814849e  # Replace with your actual Account SID
+auth_token = 45fb02a7d00381077d9676bb0abde6db  # Replace with your actual Auth Token
 
 if st.button("Make Call") and to_number:
     try:
